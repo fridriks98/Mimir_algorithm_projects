@@ -1,0 +1,31 @@
+#Tek inn ehv tölu sem er fjöldi talnanna
+#síðan vill ég prenta út n margar tölur skv. rununni í dæminu.
+# Fyrsta talan er 1
+#Næsta tala er 2 
+#þriðja talan er summa fyrstu tveggja talnanna s.s. 3
+#Næsta tala er summa alla þriggja talnanna s.s. 6
+#Næstu tölur eru svo alltaf summa þriggja talnanna sem eru á undan tölunni.
+#Byrjum á að fá ehv n tölur til að prentast út.
+
+n= int(input("Enter the length of the sequence: "))
+tala1 = 1
+tala2 = 2
+tala3 = 3 
+num_now = 0
+counter = 0
+
+while counter < n:
+num_now = tala3 + tala2 + tala1
+print(num_now) 
+tala1 = tala2 
+tala2 = tala3
+tala3 = num_now
+	
+
+
+
+
+	
+    
+    
+    
